@@ -1,0 +1,8 @@
+body { font-family: system-ui, Arial; width: 320px; margin: 0; padding: 12px; }
+h2 { margin: 0 0 8px; }
+button { width: 100%; padding: 10px; border: 0; border-radius: 8px; cursor: pointer; margin: 6px 0; background:#1a73e8; color:#fff; }
+button:hover { background:#1557b0; }
+.card { background:#f6f7f9; padding:10px; border-radius:8px; margin-top:8px; font-size:14px; }
+.warn { color:#b71c1c; font-weight:600; }
+.ok { color:#1b5e20; font-weight:600; }
+#aiStatus { display:block; margin-top:8px; color:#666; }

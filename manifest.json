@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Privacy Shield",
+  "version": "1.0",
+  "description": "Detects sensitive tabs before screen sharing and gives voice feedback during interviews.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "activeTab",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "host_permissions": [
+    "https://*/*",
+    "http://*/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*",
+        "http://*/*",
+        "https://*.meet.google.com/*",
+        "https://*.zoom.us/*",
+        "https://*.teams.microsoft.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
