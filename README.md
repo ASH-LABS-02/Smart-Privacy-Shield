@@ -48,4 +48,35 @@ Smart Privacy Shield prevents accidental exposure of sensitive information durin
 
 ---
 
-## 🧩 Folder Structure  
+## Folder Structure  
+Smart-Privacy-Shield/
+├── manifest.json
+├── background.js
+├── content.js
+├── popup.html
+├── popup.js
+└── README.md
+
+---
+
+## Future Enhancements  
+- Add emotion and tone analysis for more detailed speech feedback.  
+- Expand support for other video meeting platforms.  
+- Introduce customizable sensitivity rules for corporate users.  
+
+---
+
+## Hackathon Submission Summary  
+Smart Privacy Shield shows how **on-device AI** can enhance both **privacy and productivity**.  
+It protects what’s private — and helps you present your best self online.
+
+---
+
+## License  
+This project is open-sourced under the MIT License.  
+Feel free to fork, modify, and contribute!
+
+---
+
+> Built using Chrome’s Built-in AI and pure JavaScript.
+
